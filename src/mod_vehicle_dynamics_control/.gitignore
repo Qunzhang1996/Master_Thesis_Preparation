@@ -1,0 +1,77 @@
+# Prerequisites
+*.d
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+# Fortran module files
+*.mod
+*.smod
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+# Executables
+*.exe
+*.out
+*.app
+# Simulink code generation folders
+slprj/
+sccprj/
+*_slrt_rtw/
+# Mex functions
+*.mexw64
+# Simulink autosave extension
+*.autosave
+# Windows default autosave extension
+*.asv
+# build folder for automated making and testing
+/build/*
+!/build/Readme.md
+# exclude measurement files
+*.DAT
+/data/*
+!/data/Readme.md
+*.mat
+
+# CLion Files
+cmake-build-debug
+
+.idea
+
+scripts/MPCVisualizer/venv/*
+
+# ROS stuff
+*.bag
+
+*.whl
+
+# sphinx related content
+/venv/*
+/docs/build/*
+
+misc/py_binds/tum_mcs/src_dist/__pycache__/
+
+misc/py_binds/__pycache__/
+
+misc/py_binds/tum_mcs/__pycache__/
+
+misc/py_binds/tum_mcs/examples/__pycache__/
+
+misc/py_binds/tum_mcs/src/__pycache__/
+
+misc/py_binds/tum_mcs/examples/src/__pycache__/
+
+misc/py_binds/tum_mcs/examples/raceline_driving/__pycache__/
+
+misc/py_binds/tum_mcs/data/inputs/tpamaps/*.csv
+
+venv/

@@ -1,0 +1,7 @@
+old/
+*.db
+*.asv
+example/results/
+
+pathdef.m
+/tbxmanager

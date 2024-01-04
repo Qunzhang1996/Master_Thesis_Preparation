@@ -1,0 +1,26 @@
+{
+"plot1": {
+"posx": "1",
+"posy": "1",
+"ylabel": ["Slip in perc"],
+"ts":
+  ["debug_mvdc_actuator_debug_TCSlipDifference_perc",
+  "debug_mvdc_state_estimation_debug_StateEstimate_lambdaFL_perc",
+  "debug_mvdc_state_estimation_debug_StateEstimate_lambdaFR_perc",
+  "debug_mvdc_state_estimation_debug_StateEstimate_lambdaRL_perc",
+  "debug_mvdc_state_estimation_debug_StateEstimate_lambdaRR_perc"],
+"labels":
+  ["Target diff", "FL", "FR", "RL", "RR"]
+},
+"plot2": {
+"posx": "1",
+"posy": "2",
+"ylabel": ["Force in N"],
+"ts":
+  ["debug_mvdc_actuator_debug_TCCorrectiveForce_N",
+  "debug_mvdc_actuator_debug_TCProportionalForce_N",
+  "debug_mvdc_actuator_debug_TCIntegralForce_N"],
+"labels":
+  ["Corrective Force Overall","Proportional","Integral"]
+}
+}
